@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Futing's Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-weight: lighter;
+        }
+        
+        body {
+            background: #E0E0E0;
+        }
+        
+        .clearfix {
+            *zoom: 1;
+        }
+        
+        .clearfix:after {
+            content: '\200B';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+        
+        .container {
+            margin: 15px auto;
+            padding: 40px;
+            width: 80%;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+        
+        @media screen and (min-width:1200px) {
+            .container {
+                width: 1000px;
+            }
+        }
+        
+        .container a {
+            color: #4db6ac;
+            text-decoration: none;
+        }
+        
+        .leftside {
+            float: left;
+            width: 18%;
+        }
+        
+        .myPic {
+            text-align: center;
+        }
+        
+        .myPic img {
+            display: block;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .name {
+            width: 150px;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 20px;
+            font-weight: normal;
+        }
+        
+        .leftCont dl {
+            margin-top: 50px;
+        }
+        
+        .leftCont dt {
+            line-height: 40px;
+            font-size: 18px;
+            color: #00796b;
+        }
+        
+        .leftCont dd {
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #131212;
+            font-weight: lighter;
+        }
+        
+        .title {
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #00796b;
+            line-height: 55px;
+            font-weight: lighter;
+            border-bottom: 1px solid #00796b;
+        }
+        
+        .mainCont {
+            box-sizing: border-box;
+            float: left;
+            padding: 10px 50px;
+            width: 82%;
+        }
+        
+        .infoBox .details {
+            padding-left: 50px;
+        }
+        
+        .infoBox .details p {
+            font-size: 16px;
+            font-weight: lighter;
+            line-height: 30px;
+        }
+        
+        .w200 {
+            display: inline-block;
+            width: 200px;
+        }
+        
+        .infoBox ul {
+            padding-left: 68px;
+        }
+        
+        .infoBox ul li {
+            line-height: 36px;
+        }
+        
+        .infoBox em {
+            font-size: 14px;
+            display: block;
+        }
+        
+        .ewm {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .vtm {
+            vertical-align: middle;
+        }
+        
+        .rel {
+            position: relative;
+        }
+        
+        .ewmB {
+            display: none;
+            position: absolute;
+            left: 100px;
+            top: 0;
+            width: 120px;
+            height: 120px;
+            padding: 5px;
+            background: #fff;
+            z-index: 999;
+        }
+        
+        .ewm:hover+.ewmB {
+            display: inline-block;
+        }
+        
+        .projectTit {
+            margin-top: 15px;
+            font-size: 18px;
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container clearfix">
+        <div class="leftside">
+            <div class="myPic">
+                <img src="./img/ewm.jpg" alt="">
+                <h1 class="name">靳 岗</h1>
+            </div>
+            <div class="leftCont">
+                <dl>
+                    <dt>应聘岗位</dt>
+                    <dd>Web前端工程师</dd>
+                </dl>
+                <dl>
+                    <dt>联系方式</dt>
+                    <dd>Tel:18438607577</dd>
+                    <dd>Github:https://github.com/Xmao-miao</dd>
+                    <dd>Email:zansith@163.com</dd>
+                </dl>
+                <dl>
+                    <dt>教育背景</dt>
+                    <dd>洛阳理工学院</dd>
+                </dl>
+                <dl>
+                    <dt>兴趣爱好</dt>
+                    <dd>喜欢尝试新鲜的事物</dd>
+                    <dd>对新技术保持有热情</dd>
+                    <dd>喜欢绘画、书法、小说</dd>
+                </dl>
+                <dl>
+                    <dt>证书</dt>
+                    <dd>英语四级</dd>
+                    <dd>华为HCS-5G RF Advanced证书</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="mainCont">
+            <section class="infoBox">
+                <h1 class="title">教育背景</h1>
+                <div class="details">
+                    <p><span class="w200">洛阳理工学院</span><span class="remark">本科(2017-2021)</span></p>
+                    <p><span class="w200">计算机与信息工程学院</span><span class="remark">通信工程</span></p>
+                    <p>Github:<a href="https://github.com/Xmao-miao">https://github.com/Xmao-miao</a></p>
+                </div>
+            </section>
+            <section class="infoBox">
+                <h1 class="title">工作经验</h1>
+                <div>
+                    <p class="projectTit">天筑科技股份有限公司 &nbsp;&nbsp;2021.06 – 2022.7 </p>
+                    <ul>
+                        <li>
+                            科技助力项目管理系统
+                            <em> Vue2 Vuex Ruoyi </em>
+                        </li>
+                        <li>
+                            索克物业管理系统
+                            <em> Vue Echarts</em>
+                        </li>
+
+                        <li>
+                            双重预防信息管理系统及app
+                            <em> Vue3 uni-app</em>
+                        </li>
+                        <li>
+                            河南省建筑施工现场实名制管理系统
+                            <em> Bootstrap Layui Thymeleaf</em>
+                        </li>
+                        <li>
+                            智慧社区APP
+                            <em> uni-app Vue uni-push</em>
+                        </li>
+                        <li>
+                            郑州中学学生综合素质评价系统
+                            <em> Layui Bootstrap Echarts </em>
+                        </li>
+                        <li>
+                            省外进豫企业登记系统
+                            <em>JQuery Layui </em>
+                        </li>
+                        <li>
+                            河南省建筑市场监管公共服务平台
+                            <em> Layui Bootstrap Vue Echarts </em>
+                        </li>
+                        <li>
+                            漯河智慧园区大屏展示系统
+                            <em>Echarts Thymeleaf</em>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="infoBox">
+                <h1 class="title">个人技能</h1>
+                <ul>
+                    <li>熟练使用GIT,SVN,禅道,apifox,蓝湖</li>
+                    <li>比较熟练使用Axure,Photoshop等工具</li>
+                    <li>熟悉HTML/CSS/JS基础知识,熟悉CSS3,H5,ES5,ES6</li>
+                    <li>熟悉jQuery,less语法,flex布局,rem布局,AJAX</li>
+                    <li>熟练使用Vue全家桶,熟悉Webpack的各种配置</li>
+                    <li>熟练使用Bootstrap,Layui,Echarts等框架</li>
+                    <li>了解Nodejs,express的使用</li>
+                    <li>比较熟练使用5+, uni-app, 开发WEB APP </li>
+                    <li>了解小程序的开发及调试</li>
+
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
